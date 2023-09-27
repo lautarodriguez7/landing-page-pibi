@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  padding: 1rem;
+  background-color: #383838;
+}
+.first {
+  width: 50%;
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+ul {
+  font-size: 12px;
+  list-style: square inside !important;
+  padding-left: 1.5rem !important;
+  margin: 2rem !important;
+}
+
+li {
+  padding: 0.5rem;
+  color: #fff;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.025rem;
+}

@@ -1,0 +1,15 @@
+.navbar-div {
+  position: fixed;
+  border-radius: 10px;
+  top: 8%;
+  left: 46%;
+  transform: translate(-45%, -50%);
+  height: auto;
+  width: 75%;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.navbar {
+  border-radius: 10%;
+}

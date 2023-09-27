@@ -1,0 +1,86 @@
+.container-cardBenefit {
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+}
+
+.title-container {
+  color: #ffc000;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.025rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-cardBenefit h1 {
+  align-items: start;
+  justify-content: start;
+  color: #ffc000;
+  letter-spacing: 0.025rem;
+  margin: 1rem;
+}
+.description-cardBenefit-container {
+  display: flex;
+}
+
+.image-icon {
+  background-color: #ffc000;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.icon-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+}
+
+.svg-container {
+  position: absolute;
+  width: 100vw;
+  height: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg1,
+.svg2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-l span,
+.text-right span {
+  width: 60%;
+}
+
+.text-l,
+.text-right {
+  margin: 2.5rem;
+  font-size: small;
+  width: 75%;
+}
+.text-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+}
+.text-right {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.cards {
+  display: flex;
+  margin: 3rem;
+  margin-bottom: 0;
+}

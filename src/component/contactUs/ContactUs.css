@@ -1,0 +1,105 @@
+.container-title-contactUs {
+  top: 50% !important;
+  align-items: center;
+}
+
+.container-title-contactUs h1 {
+  color: #5e5873;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title-contactUs {
+  color: #ffc000;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+}
+
+.form-contactUs {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.title-contactUs {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  text-align: start !important;
+  margin-left: 3.2rem !important;
+}
+
+.title-form {
+  color: #5e5873 !important;
+}
+
+.container-title-contactUs h1 {
+  color: #ffc000;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+
+.form-contactUs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  border-radius: 1%;
+  padding: 1rem;
+}
+
+.form-contactUs-container label {
+  text-align: start !important;
+  align-items: start !important;
+  padding: 15px;
+}
+
+.container-title-contactUs span {
+  margin-left: 1.8rem;
+}
+
+.label-textarea {
+  padding-bottom: 0 !important;
+}
+
+input,
+textarea {
+  width: 100% !important;
+  color: #6e6b7b !important;
+}
+
+label {
+  color: black;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: start;
+}
+
+input {
+  width: 100% !important;
+  padding: 4rem;
+}
+
+.button-form {
+  background-color: black !important;
+  color: white !important;
+  width: 100%;
+}

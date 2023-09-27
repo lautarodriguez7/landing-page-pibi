@@ -1,0 +1,22 @@
+.image-with-text-container {
+  position: relative;
+  display: inline-block; /* Esto asegura que el contenedor se ajuste al tamaño de la imagen y el texto */
+}
+
+.text-overlay {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-45%, -50%);
+  color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+.p-demo {
+  font-size: 28px;
+}
+
+.image {
+  filter: brightness(50%);
+}
