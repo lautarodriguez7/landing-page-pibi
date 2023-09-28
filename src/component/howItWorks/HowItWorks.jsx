@@ -14,8 +14,8 @@ const HowItWorks = () => {
   window.addEventListener('scroll', changeAnimationSkill)
 
   return (
-    <div className="container flex flex-row justify-around items-center dark text-foreground">
-      <div className="first p-5">
+    <div className="howItWorks-container dark text-foreground">
+      <div className="first w-first p-4">
         <ul
           className={
             animationSkill ? 'animate__animated animate__fadeInUp animate__slow' : 'hidden'
@@ -39,7 +39,7 @@ const HowItWorks = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="second">
         <Image
           src={image}
           alt="Imagen"

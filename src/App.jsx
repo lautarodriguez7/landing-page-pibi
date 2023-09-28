@@ -9,17 +9,13 @@ import {
   ContactUs,
   Footer,
 } from './component'
+import Sections from './component/sections/Sections'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <DemoRequest />
-      <WhatIs />
-      <HowItWorks />
-      <Scenarios />
-      <Benefit />
-      <ContactUs />
+      <Sections />
       <Footer />
     </div>
   )

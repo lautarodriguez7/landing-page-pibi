@@ -1,17 +1,17 @@
-.container {
+.howItWorks-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: start;
-  padding: 1rem;
+  padding: 4rem 1rem 4rem 5rem;
   background-color: #383838;
 }
+.second,
 .first {
-  width: 50%;
-  padding-top: 20rem;
+  width: 100% !important;
+}
+.second {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin: 3rem 0rem 3rem 0rem;
+  justify-content: center;
 }
 
 .first h2 {
@@ -22,8 +22,8 @@
 ul {
   font-size: 12px;
   list-style: square inside !important;
-  padding-left: 1.5rem !important;
-  margin: 2rem !important;
+  /* padding-left: 1.5rem !important; */
+  /* margin: 2rem !important; */
 }
 
 li {
@@ -33,6 +33,6 @@ li {
     'clig' off,
     'liga' off;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.025rem;
 }
