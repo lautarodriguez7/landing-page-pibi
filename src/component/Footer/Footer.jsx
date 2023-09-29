@@ -1,7 +1,7 @@
 import {Button} from '@nextui-org/react'
 import linkedin from '../../assets/images/linkedin.svg'
 import instagram from '../../assets/images/instagram.svg'
-import facebook from '../../assets/images/facebook.svg'
+import youtube from '../../assets/images/youtube.svg'
 import twitter from '../../assets/images/twitter.svg'
 import './Footer.css'
 import {useState} from 'react'
@@ -70,10 +70,15 @@ const Footer = () => {
               : 'hidden'
           }
         >
-          <img src={linkedin} alt="logo" />
-          <img src={instagram} alt="logo" />
-          <img src={facebook} alt="logo" />
-          <img src={twitter} alt="logo" />
+          <a href="https://www.instagram.com/pidatastrategyconsultingok/">
+            <img src={instagram} alt="logo" />
+          </a>
+          <a href="https://www.linkedin.com/company/pi-data-strategy-&-consulting/mycompany/">
+            <img src={linkedin} alt="logo" />
+          </a>
+          <a href="https://www.youtube.com/@PiDataStrategyConsulting">
+            <img src={youtube} alt="logo" />
+          </a>
         </div>
       </div>
     </div>
