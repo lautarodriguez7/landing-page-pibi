@@ -2,7 +2,6 @@ import {Button} from '@nextui-org/react'
 import linkedin from '../../assets/images/linkedin.svg'
 import instagram from '../../assets/images/instagram.svg'
 import youtube from '../../assets/images/youtube.svg'
-import twitter from '../../assets/images/twitter.svg'
 import './Footer.css'
 import {useState} from 'react'
 
@@ -70,11 +69,11 @@ const Footer = () => {
               : 'hidden'
           }
         >
-          <a href="https://www.instagram.com/pidatastrategyconsultingok/">
-            <img src={instagram} alt="logo" />
-          </a>
           <a href="https://www.linkedin.com/company/pi-data-strategy-&-consulting/mycompany/">
             <img src={linkedin} alt="logo" />
+          </a>
+          <a href="https://www.instagram.com/pidatastrategyconsultingok/">
+            <img src={instagram} alt="logo" />
           </a>
           <a href="https://www.youtube.com/@PiDataStrategyConsulting">
             <img src={youtube} alt="logo" />
