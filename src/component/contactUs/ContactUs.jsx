@@ -32,7 +32,7 @@ const ContactUs = () => {
           <span
             className={
               animationSkill
-                ? 'animate__slower container-scenarios animate__animated animate__fadeInUp animate__slow'
+                ? 'animate__slower container-scenarios animate__animated animate__fadeInUp animate__slow span-contactUs'
                 : 'hidden'
             }
           >
