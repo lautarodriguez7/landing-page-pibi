@@ -1,3 +1,4 @@
+import {Toaster} from 'react-hot-toast'
 import './App.css'
 import {
   NavBar,
@@ -14,6 +15,8 @@ import Sections from './component/sections/Sections'
 function App() {
   return (
     <div className="App">
+      <Toaster position="top-center" reverseOrder={true} />
+
       <NavBar />
       <Sections />
       <Footer />
