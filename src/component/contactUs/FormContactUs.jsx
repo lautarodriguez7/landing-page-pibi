@@ -33,7 +33,7 @@ export const FormContactUs = () => {
         Name: '',
       })
       setTimeout(() => {
-        toast.success('Successfully toasted!')
+        toast.success('Solicitud enviada!')
       }, 500)
     } catch (error) {
       toast.error('Error al enviar la solicitud')
