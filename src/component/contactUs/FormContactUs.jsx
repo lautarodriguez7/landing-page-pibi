@@ -26,7 +26,15 @@ export const FormContactUs = () => {
         'https://prod-61.eastus2.logic.azure.com:443/workflows/5a9b7ee939ad4cc5b223c07be518f704/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=cZ3LcDcsCKLVgH87ZOEST7FSosJycrO5YOA1oIwUiFE',
         data,
       )
-      toast.success('Successfully toasted!')
+      setData({
+        Consulta: '',
+        Email: '',
+        Empresa: '',
+        Name: '',
+      })
+      setTimeout(() => {
+        toast.success('Successfully toasted!')
+      }, 500)
     } catch (error) {
       toast.error('Error al enviar la solicitud')
       console.error('Error al enviar la solicitud:', error)

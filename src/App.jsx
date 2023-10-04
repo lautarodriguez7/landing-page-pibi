@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Toaster position="top-center" reverseOrder={true} />
-
       <NavBar />
       <Sections />
       <Footer />
