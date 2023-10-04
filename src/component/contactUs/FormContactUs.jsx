@@ -58,19 +58,31 @@ export const FormContactUs = () => {
       <form onSubmit={onSubmit} className="form-contactUs">
         <div>
           <label>Name:</label>
-          <Input type="text" name="Name" value={data.Name} onChange={handleChange} />
+          <Input isRequired type="text" name="Name" value={data.Name} onChange={handleChange} />
         </div>
         <div>
           <label>Email:</label>
-          <Input type="email" name="Email" value={data.Email} onChange={handleChange} />
+          <Input isRequired type="email" name="Email" value={data.Email} onChange={handleChange} />
         </div>
         <div>
           <label>Empresa:</label>
-          <Input type="text" name="Empresa" value={data.Empresa} onChange={handleChange} />
+          <Input
+            isRequired
+            type="text"
+            name="Empresa"
+            value={data.Empresa}
+            onChange={handleChange}
+          />
         </div>
         <div>
           <label>Consulta:</label>
-          <Textarea type="text" name="Consulta" value={data.Consulta} onChange={handleChange} />
+          <Textarea
+            isRequired
+            type="text"
+            name="Consulta"
+            value={data.Consulta}
+            onChange={handleChange}
+          />
         </div>
 
         <Button type="submit" className="button-form mt-2">
