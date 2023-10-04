@@ -1,6 +1,5 @@
 .image-with-text-container {
   position: relative;
-  display: inline-block; /* Esto asegura que el contenedor se ajuste al tamaño de la imagen y el texto */
 }
 
 .text-overlay {
