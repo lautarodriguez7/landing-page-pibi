@@ -1,5 +1,5 @@
 import {Navbar, NavbarBrand, NavbarContent, Button, Image} from '@nextui-org/react'
-import logo from '../../assets/images/logo-pibi.ico'
+import logo from '../../assets/images/logo-nuevo.png'
 import './NavBar.css'
 import {Link} from 'react-scroll'
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className="navbar-div">
       <Navbar className="navbar">
         <NavbarBrand justify="start">
-          <Image src={logo} className="mr-5" width={100} alt="Pibi Logo" />
+          <img src={logo} className="mr-5" width={100} alt="Pibi Logo" />
         </NavbarBrand>
         <Link to="what-is" spy={true} smooth={true}>
           ¿Que es?
