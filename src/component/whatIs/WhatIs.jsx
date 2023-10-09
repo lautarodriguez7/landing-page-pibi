@@ -17,7 +17,7 @@ const WhatIs = () => {
         </p>
       </div>
       <div className="w-second">
-        <ReactPlayer url={video} height="250px" width="550px" playing={false} />
+        <ReactPlayer url={video} height="auto" width="auto" playing={false} />
       </div>
     </div>
   )

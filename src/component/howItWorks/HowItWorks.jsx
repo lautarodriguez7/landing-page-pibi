@@ -21,9 +21,9 @@ const HowItWorks = () => {
             animationSkill ? 'animate__animated animate__fadeInUp animate__slow' : 'hidden'
           }
         >
-          <h2 className="p-1" style={{color: '#FFC000'}}>
+          <h1 className="p-1" style={{color: '#FFC000', fontSize: '25px'}}>
             <b>¿Cómo funciona?</b>
-          </h2>
+          </h1>
           <li>
             Para que PiBi pueda leer los informes de PowerBi de nuestra organización, es necesario
             crear un puente entre PiBi (nuestro tenant) y su tenant de Azure.{' '}

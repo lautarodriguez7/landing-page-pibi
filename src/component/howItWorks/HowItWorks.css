@@ -3,7 +3,7 @@
   align-items: center;
   padding: 6rem 5rem 6rem 5rem;
   background-color: #383838;
-  height: 50vh;
+  height: 85vh;
   width: 100%;
 }
 .second,
@@ -34,7 +34,7 @@ li {
   font-feature-settings:
     'clig' off,
     'liga' off;
-  font-size: 0.75rem;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.025rem;
 }

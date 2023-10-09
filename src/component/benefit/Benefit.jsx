@@ -33,7 +33,7 @@ const Benefit = () => {
               ? 'container-scenarios animate__slower animate__animated animate__fadeInUp animate__slow'
               : 'hidden'
           }
-          style={{fontSize: '25px', marginTop: '1rem', letterSpacing: '0.23'}}
+          style={{fontSize: '25px', marginTop: '2rem', letterSpacing: '0.23'}}
         >
           Beneficios
         </h1>
