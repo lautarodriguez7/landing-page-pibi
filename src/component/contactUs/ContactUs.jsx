@@ -25,11 +25,12 @@ const ContactUs = () => {
                 ? 'animate__slower px-4 animate__animated animate__fadeInUp animate__slow title-contactUs'
                 : 'hidden'
             }
-            style={{color: '#FFC000'}}
+            style={{color: '#FFC000', fontSize: '25px'}}
           >
             ¿No sabés por dónde empezar?
           </h1>
           <span
+            style={{fontSize: '14px'}}
             className={
               animationSkill
                 ? 'animate__slower container-scenarios animate__animated animate__fadeInUp animate__slow span-contactUs'
