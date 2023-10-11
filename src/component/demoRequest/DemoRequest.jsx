@@ -9,7 +9,7 @@ const DemoRequest = () => {
 
       {/* <img src={image} alt="Imagen" className="image" /> */}
       <div className="text-overlay flex flex-col">
-        <div className="p-4">
+        <div className="p-demo-container">
           <p className="p-demo">
             Tus informes de <b style={{color: '#FFC000'}}>Power BI</b>
           </p>

@@ -6,7 +6,7 @@
   z-index: 99;
   display: flex;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white; /* Cambia el color del texto según tus preferencias */
@@ -15,9 +15,24 @@
 .p-demo {
   font-size: 25px;
 }
+.p-demo-container {
+  padding: 1rem;
+}
 
 .image {
   filter: brightness(50%);
   border-radius: 0 !important;
   background-size: cover !important;
+}
+@media (max-width: 768px) {
+  .p-demo {
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+  }
+}
+
+@media (max-width: 422px) {
+  .p-demo-container {
+    padding: 1.5rem 0 0.5rem 0;
+  }
 }

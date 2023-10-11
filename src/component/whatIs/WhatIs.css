@@ -42,11 +42,42 @@
   font-weight: 500;
 }
 
-.w-second {
-}
 .logo-container {
   display: flex;
 }
 .logo-container img {
   padding: 0 1rem 0 0;
+}
+@media (max-width: 1200px) {
+  .whatIs-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 50vh;
+  }
+  .w-first,
+  .w-second {
+    /* margin: 10px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .w-first {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .whatIs-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    height: auto;
+  }
+  .w-first,
+  .w-second {
+    margin: 1rem;
+    width: 80%;
+  }
 }
