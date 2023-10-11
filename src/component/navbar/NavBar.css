@@ -18,3 +18,15 @@
 .navbar a:hover {
   color: #ffc000;
 }
+
+.navbar-container a {
+  position: fixed;
+
+  list-style: none;
+  text-align: center;
+}
+.navbar-link {
+  text-align: center;
+  font-size: 24px;
+  padding: 0.75rem;
+}
