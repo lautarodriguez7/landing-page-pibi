@@ -10,6 +10,10 @@
 .first {
   width: 50% !important;
 }
+.first h1 {
+  color: #ffc000;
+  font-size: 25px;
+}
 .second {
   display: flex;
   margin: 3rem 0rem 3rem 0rem;
@@ -37,4 +41,29 @@ li {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.025rem;
+}
+
+@media (max-width: 700px) {
+  .first {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .second {
+    display: none !important;
+  }
+  .howItWorks-container {
+    /* padding: 1rem; */
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .howItWorks-container {
+    padding: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .howItWorks-container {
+    padding: 1rem;
+  }
 }

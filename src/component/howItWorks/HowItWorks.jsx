@@ -21,7 +21,7 @@ const HowItWorks = () => {
             animationSkill ? 'animate__animated animate__fadeInUp animate__slow' : 'hidden'
           }
         >
-          <h1 className="p-1" style={{color: '#FFC000', fontSize: '25px'}}>
+          <h1 className="p-1">
             <b>¿Cómo funciona?</b>
           </h1>
           <li>
