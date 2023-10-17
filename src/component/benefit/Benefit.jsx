@@ -25,19 +25,18 @@ const Benefit = () => {
   window.addEventListener('scroll', changeAnimationSkill2)
 
   return (
-    <div style={{background: '#383838'}} className="dark text-foreground">
+    <div style={{background: '#383838'}} className="dark text-foreground benefit-section">
       <div className="title-container pt-4">
         <h1
           className={
             animationSkill
-              ? 'container-scenarios animate__slower animate__animated animate__fadeInUp animate__slow'
+              ? 'container-scenarios benefit-section-title animate__slower animate__animated animate__fadeInUp animate__slow'
               : 'hidden'
           }
           style={{fontSize: '25px', marginTop: '2rem', letterSpacing: '0.23'}}
         >
           Beneficios
         </h1>
-        <div></div>
       </div>
       <div className="cards" style={{margin: '2rem'}}>
         <div style={{width: '50%'}}>
@@ -258,22 +257,6 @@ const Benefit = () => {
           />
         </div>
       </div>
-      {/* <div className="cards">
-        <div>
-          <CardBenefit
-            title="Login propio"
-            image={image1}
-            description="Permite el acceso a usuarios internos o externos a la organización (SSO Google y Microsoft)."
-          />
-        </div>
-        <div>
-          <CardBenefictRight
-            title="Seguro y privado"
-            image={image2}
-            description="Los informes se pueden distribuir de manera específica a usuarios seleccionados."
-          />
-        </div>
-      </div> */}
     </div>
   )
 }

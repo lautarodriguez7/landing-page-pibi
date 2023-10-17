@@ -84,3 +84,75 @@
   margin: 3rem;
   margin-bottom: 0;
 }
+@media (max-width: 1005px) {
+  svg {
+    display: none !important;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    margin: 0rem;
+    margin-bottom: 0;
+  }
+  .text-l,
+  .text-right {
+    margin: 1.5rem;
+    font-size: small;
+    width: 75%;
+  }
+  .container-cardBenefit {
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 765px) {
+  .container-cardBenefit {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    margin: 0rem;
+    margin-bottom: 0;
+  }
+  .text-l,
+  .text-right {
+    margin: 0.5rem;
+    font-size: small;
+    width: 100%;
+  }
+}
+
+@media (max-width: 570px) {
+  .description-cardBenefit-container {
+    display: none !important;
+  }
+  .cards {
+    align-items: normal;
+    margin: 0 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-cardBenefit {
+    text-align: center;
+    margin: 0;
+  }
+  .text-l,
+  .text-right {
+    align-items: center;
+    margin: 0rem;
+    text-align: center;
+  }
+  .text-l span,
+  .text-right span {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .cards h1 {
+    align-items: center;
+    text-align: center;
+    margin: 0 !important;
+  }
+}
