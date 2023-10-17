@@ -39,14 +39,14 @@ const Benefit = () => {
         </h1>
       </div>
       <div className="cards" style={{margin: '2rem'}}>
-        <div style={{width: '50%'}}>
+        <div className="div-card">
           <CardBenefit
             title="Login propio"
             image={image1}
             description="Permite el acceso a usuarios internos o externos a la organización (SSO Google y Microsoft)."
           />
         </div>
-        <div style={{width: '50%'}}>
+        <div className="div-card">
           <CardBenefictRight
             title="Seguro y privado"
             image={image2}
@@ -233,9 +233,10 @@ const Benefit = () => {
       </div>
       <div className="cards">
         <div
-          style={{width: '50%'}}
           className={
-            animationSkill ? 'animate__animated animate__backInLeft animate__slow' : 'hidden'
+            animationSkill
+              ? 'div-card animate__animated animate__backInLeft animate__slow'
+              : 'hidden'
           }
         >
           <CardBenefit
@@ -245,9 +246,10 @@ const Benefit = () => {
           />
         </div>
         <div
-          style={{width: '50%'}}
           className={
-            animationSkill ? 'animate__animated animate__backInRight animate__slow' : 'hidden'
+            animationSkill
+              ? 'div-card animate__animated animate__backInRight animate__slow'
+              : 'hidden'
           }
         >
           <CardBenefictRight
