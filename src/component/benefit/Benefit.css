@@ -160,4 +160,7 @@
     text-align: center;
     margin: 0 !important;
   }
+  .cards-bottom {
+    padding-bottom: 2rem;
+  }
 }

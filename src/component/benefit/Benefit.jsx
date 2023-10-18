@@ -231,7 +231,7 @@ const Benefit = () => {
           />
         </svg>
       </div>
-      <div className="cards">
+      <div className="cards cards-bottom">
         <div
           className={
             animationSkill
