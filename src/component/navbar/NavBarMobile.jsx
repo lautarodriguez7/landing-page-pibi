@@ -33,6 +33,7 @@ const NavBarMobile = () => {
       </NavbarBrand>
       <NavbarMenu>
         <Link
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
           to="what-is"
           className="navbar-link"
           spy={true}
@@ -42,17 +43,35 @@ const NavBarMobile = () => {
         >
           ¿Que es?
         </Link>
-        <Link to="how-it-works" className="navbar-link" spy={true} smooth={true}>
+        <Link
+          to="how-it-works"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          spy={true}
+          smooth={true}
+        >
           ¿Como funciona?
         </Link>
-        <Link to="scenarios" className="navbar-link" spy={true} smooth={true}>
+        <Link
+          to="scenarios"
+          className="navbar-link"
+          spy={true}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          smooth={true}
+        >
           Escenarios
         </Link>
-        <Link to="benefit" className="navbar-link" spy={true} smooth={true}>
+        <Link
+          to="benefit"
+          className="navbar-link"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          spy={true}
+          smooth={true}
+        >
           Beneficios
         </Link>
         <Button size="md" radius="sm" className="m-3 dark">
-          <Link to="contact-us" spy={true} smooth={true}>
+          <Link to="contact-us" onClick={() => setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true}>
             Solicitá una demo
           </Link>
         </Button>

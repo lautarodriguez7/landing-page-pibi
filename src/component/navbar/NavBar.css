@@ -18,10 +18,11 @@
 .navbar a:hover {
   color: #ffc000;
 }
-
+.navbar-container {
+  position: fixed;
+}
 .navbar-container a {
   position: fixed;
-
   list-style: none;
   text-align: center;
 }
