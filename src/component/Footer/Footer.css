@@ -71,3 +71,26 @@
 .logo-container {
   width: 13rem;
 }
+
+@media (max-width: 815px) {
+  .footer-center-container {
+    width: 100%;
+  }
+}
+@media (max-width: 554px) {
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-footer-bottom {
+    width: 100%;
+    text-align: center;
+  }
+  .logo-container {
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+  }
+  .logo-container a {
+    width: 50%;
+  }
+}
