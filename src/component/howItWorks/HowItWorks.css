@@ -13,6 +13,7 @@
 .first h1 {
   color: #ffc000;
   font-size: 25px;
+  margin-top: 2rem;
 }
 .second {
   display: flex;

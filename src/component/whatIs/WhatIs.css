@@ -74,10 +74,11 @@
     flex-direction: column;
     margin: 2rem;
     height: auto;
+    height: 65vh;
+    justify-content: center;
   }
   .w-first,
   .w-second {
     margin: 1rem;
-    width: 80%;
   }
 }

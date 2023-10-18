@@ -30,6 +30,9 @@
 /* .span-contactUs {
   margin-left: 2rem !important;
 } */
+.container-div-formContactUs {
+  padding: 0 1rem 1rem 1rem;
+}
 
 .form-contactUs {
   display: flex;

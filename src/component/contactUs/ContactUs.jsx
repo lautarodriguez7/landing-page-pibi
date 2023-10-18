@@ -40,7 +40,9 @@ const ContactUs = () => {
               Comenza probando nuestro producto.
             </span>
           </div>
-          <FormContactUs />
+          <div className="container-div-formContactUs">
+            <FormContactUs />
+          </div>
         </div>
       </div>
     </div>
