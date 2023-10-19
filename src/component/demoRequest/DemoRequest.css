@@ -26,13 +26,18 @@
 }
 @media (max-width: 768px) {
   .p-demo {
-    font-size: 12px;
     letter-spacing: 0.05rem;
   }
 }
 
-@media (max-width: 422px) {
+@media (max-width: 522px) {
   .p-demo-container {
     padding: 1.5rem 0 0.5rem 0;
+  }
+  .container-div-demoRequest {
+    width: 100% !important;
+  }
+  .p-demo-container {
+    margin: 1.5rem;
   }
 }
