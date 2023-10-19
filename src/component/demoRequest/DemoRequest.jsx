@@ -4,10 +4,9 @@ import image from '../../assets/images/image1.png'
 
 const DemoRequest = () => {
   return (
-    <div className="image-with-text-container animate__animated animate__bounceInDown">
-      <Image src={image} alt="Imagen" className="image" />
+    <div className="image-with-text-container image1 animate__animated animate__bounceInDown">
+      {/* <Image src={image} alt="Imagen" className="image" /> */}
 
-      {/* <img src={image} alt="Imagen" className="image" /> */}
       <div className="text-overlay flex flex-col">
         <div className="p-demo-container">
           <p className="p-demo">

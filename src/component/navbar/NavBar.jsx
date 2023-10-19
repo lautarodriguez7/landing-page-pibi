@@ -4,7 +4,7 @@ import NavBarMobile from './NavBarMobile'
 const NavBar = () => {
   return (
     <div className="navbar-div">
-      {window.innerWidth < 1000 ? <NavBarMobile /> : <NavBarDesktop />}
+      {window.innerWidth < 900 ? <NavBarMobile /> : <NavBarDesktop />}
     </div>
   )
 }
