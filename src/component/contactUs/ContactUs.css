@@ -121,4 +121,16 @@ input {
   .image2 {
     height: 120vh !important;
   }
+  .title-contactUs {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 750px) {
+  .title-contactUs {
+    font-size: 20px !important;
+  }
+
+  .container-title-contactUs span {
+    width: 100%;
+  }
 }
