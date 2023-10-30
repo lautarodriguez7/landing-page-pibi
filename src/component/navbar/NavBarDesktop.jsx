@@ -7,7 +7,9 @@ const NavBarDesktop = () => {
   return (
     <Navbar className="navbar">
       <NavbarBrand justify="start">
-        <img src={logo} className="mr-5" width={100} alt="Pibi Logo" />
+        <a href="">
+          <img src={logo} className="mr-5" width={100} alt="Pibi Logo" />
+        </a>
       </NavbarBrand>
       <Link to="what-is" spy={true} smooth={true}>
         ¿Que es?

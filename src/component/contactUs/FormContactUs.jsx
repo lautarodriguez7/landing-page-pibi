@@ -5,19 +5,19 @@ import {useState} from 'react'
 import axios from 'axios'
 import toast, {Toaster} from 'react-hot-toast'
 export const FormContactUs = () => {
-  const [animationSkill, setAnimationSkills] = useState(false)
+  // const [animationSkill, setAnimationSkills] = useState(false)
   const [data, setData] = useState({
     Consulta: '',
     Email: '',
     Empresa: '',
     Name: '',
   })
-  const changeAnimationSkill = () => {
-    if (window.scrollY >= 1800) {
-      setAnimationSkills(true)
-    }
-  }
-  window.addEventListener('scroll', changeAnimationSkill)
+  // const changeAnimationSkill = () => {
+  //   if (window.scrollY >= 1800) {
+  //     setAnimationSkills(true)
+  //   }
+  // }
+  // window.addEventListener('scroll', changeAnimationSkill)
 
   const onSubmit = async (e) => {
     e.preventDefault()
@@ -47,11 +47,12 @@ export const FormContactUs = () => {
   }
   return (
     <div
-      className={
-        animationSkill
-          ? 'animate__slower form-contactUs-container animate__animated animate__fadeInUp animate__slow'
-          : 'hidden'
-      }
+      // className={
+      //   animationSkill
+      //     ? 'animate__slower form-contactUs-container animate__animated animate__fadeInUp animate__slow'
+      //     : 'hidden'
+      // }
+      className="form-contactUs-container"
     >
       <h1 className="title-form">Contactanos</h1>
 

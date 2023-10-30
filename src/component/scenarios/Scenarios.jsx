@@ -26,13 +26,7 @@ const Scenarios = ({image, description}) => {
       >
         Escenarios frecuentes
       </h1>
-      <div
-        className={
-          animationSkill
-            ? 'div-images container-scenarios animate__animated animate__fadeInUp animate__slow'
-            : 'hidden'
-        }
-      >
+      <div className="div-images">
         <div className="images">
           <CardScenarios
             description="Posibilidad de compartir informes con usuarios externos"

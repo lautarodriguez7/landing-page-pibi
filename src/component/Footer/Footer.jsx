@@ -47,7 +47,9 @@ const Footer = () => {
                 : 'hidden'
             }
           >
-            <Button type="submit">Ir a Pi Consulting</Button>
+            <a href="https://www.piconsulting.com.ar">
+              <Button type="submit">Ir a Pi Consulting</Button>
+            </a>
           </div>
         </div>
       </div>

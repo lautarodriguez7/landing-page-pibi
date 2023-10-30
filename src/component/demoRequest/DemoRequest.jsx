@@ -1,6 +1,6 @@
 import {Button, Image} from '@nextui-org/react'
 import './DemoRequest.css'
-import image from '../../assets/images/image1.png'
+import {Link} from 'react-scroll'
 
 const DemoRequest = () => {
   return (
@@ -13,7 +13,11 @@ const DemoRequest = () => {
           <p className="p-demo">acorde a tus necesidades</p>
         </div>
         <div className="mt-5">
-          <Button className="p-5 rounded dark">Solicitá una demo</Button>
+          <Button className="p-5 rounded dark">
+            <Link to="contact-us" spy={true} smooth={true} color="grey">
+              Solicitá una demo
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

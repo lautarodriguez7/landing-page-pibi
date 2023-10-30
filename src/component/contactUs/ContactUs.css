@@ -71,7 +71,8 @@
   height: auto;
   background-color: #fff;
   border-radius: 2%;
-  padding: 1rem;
+  padding: 0.5rem;
+  position: relative;
 }
 
 .form-contactUs-container label {
@@ -113,11 +114,13 @@ input {
   color: white !important;
   width: 100%;
 }
-
-@media (max-height: 550px) {
+@media (max-height: 750px) {
   .container-title-contactUs {
     padding: 0 !important;
   }
+}
+
+@media (max-height: 550px) {
   .image2 {
     height: 120vh !important;
   }

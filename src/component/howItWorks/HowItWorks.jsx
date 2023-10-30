@@ -15,7 +15,7 @@ const HowItWorks = () => {
 
   return (
     <div className="howItWorks-container dark text-foreground">
-      <div className="first w-first">
+      <div className="first ">
         <ul
           className={
             animationSkill ? 'animate__animated animate__fadeInUp animate__slow' : 'hidden'
@@ -39,7 +39,7 @@ const HowItWorks = () => {
           </li>
         </ul>
       </div>
-      <div className="w-second second">
+      <div className="second">
         <Image
           src={image}
           alt="Imagen"

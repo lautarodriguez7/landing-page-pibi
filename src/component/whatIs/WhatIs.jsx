@@ -10,14 +10,15 @@ const WhatIs = () => {
         <h1 className="" style={{fontSize: '25px'}}>
           <b>¿Qué es PiBi?</b>
         </h1>
-        <p>
-          PiBi es un sistema de información que permite a los usuarios visualizar información de
-          diferentes tecnologías. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          ipsa et iure beatae dolorem dicta ipsam aut. Temporibus voluptatem placeat dolor minima
+        <p style={{fontSize: '16px'}}>
+          PiBi es una plataforma web como servicio (SaaS) como portal de inteligencia de negocios
+          integrada como solución de tecnología Power Bi Embedded. Una construcción que interactúa
+          con tu entorno de Azure y te permite distribuir informes de PowerBi de manera segura,
+          simple y eficiente.
         </p>
       </div>
       <div className="w-second">
-        <ReactPlayer url={video} height="auto" width="auto" playing={false} />
+        <ReactPlayer url={video} height="auto" width="100%" playing={false} />
       </div>
     </div>
   )

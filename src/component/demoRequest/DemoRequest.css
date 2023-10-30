@@ -40,4 +40,7 @@
   .p-demo-container {
     margin: 1.5rem;
   }
+  .p-demo {
+    font-size: 23px;
+  }
 }

@@ -3,7 +3,7 @@
   align-items: center;
   padding: 6rem 5rem 6rem 5rem;
   background-color: #383838;
-  height: 85vh;
+  height: 60vh;
   width: 100%;
 }
 .second,
@@ -26,6 +26,16 @@
   padding-bottom: 20px;
 }
 
+.first {
+  color: #383838;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+  text-align: start;
+  margin: 3rem;
+}
 ul {
   font-size: 12px;
   list-style: square inside !important;
@@ -48,6 +58,9 @@ li {
   .first {
     width: 100% !important;
     margin: 0 !important;
+  }
+  .first h1 {
+    text-align: center;
   }
   .second {
     display: none !important;
