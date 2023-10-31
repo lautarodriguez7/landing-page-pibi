@@ -28,9 +28,11 @@ const NavBarMobile = () => {
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} />
       </NavbarContent>
-      <NavbarBrand justify="start">
-        <img src={logo} className="mr-5" width={100} alt="Pibi Logo" />
-      </NavbarBrand>
+      <div className="logo-pibi">
+        <img src={logo} width={100} alt="Pibi Logo" />
+      </div>
+      {/* <NavbarBrand justify="center"> */}
+      {/* </NavbarBrand> */}
       <NavbarMenu>
         <Link
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -76,6 +78,7 @@ const NavBarMobile = () => {
           </Link>
         </Button>
       </NavbarMenu>
+      <div></div>
     </Navbar>
   )
 }

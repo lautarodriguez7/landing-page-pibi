@@ -10,7 +10,11 @@
   border-radius: 0;
   background-color: rgb(238, 233, 233);
 }
-
+.logo-pibi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .navbar a {
   cursor: pointer;
 }
@@ -20,6 +24,7 @@
 }
 .navbar-container {
   position: fixed;
+  display: flex;
 }
 .navbar-container a {
   position: fixed;

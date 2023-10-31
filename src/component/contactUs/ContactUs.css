@@ -137,3 +137,9 @@ input {
     width: 100%;
   }
 }
+
+@media (max-width: 550px) {
+  .image1 {
+    background-image: url(../../assets/images/image1Mobile.png) !important;
+  }
+}

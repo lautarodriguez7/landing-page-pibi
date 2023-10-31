@@ -25,7 +25,7 @@ const ContactUs = () => {
                   ? 'animate__slower px-4 animate__animated animate__fadeInUp animate__slow title-contactUs'
                   : 'hidden'
               }
-              style={{color: '#FFC000', fontSize: '25px', marginTop: '2rem'}}
+              style={{color: '#FFC000', fontSize: '25px', marginTop: '3rem'}}
             >
               ¿No sabés por dónde empezar?
             </h1>
