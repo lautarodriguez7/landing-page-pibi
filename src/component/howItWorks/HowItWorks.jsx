@@ -18,7 +18,7 @@ const HowItWorks = () => {
       <div className="first ">
         <ul
           className={
-            animationSkill ? 'animate__animated animate__fadeInUp animate__slow' : 'hidden'
+            animationSkill ? 'animate__animated animate__fadeInLeftBig animate__slow' : 'hidden'
           }
         >
           <h1 className="p-1">

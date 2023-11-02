@@ -22,7 +22,7 @@ const Footer = () => {
           <div
             className={
               animationSkill
-                ? 'footer-center-div animate__slower animate__animated animate__fadeInUp animate__slow'
+                ? 'footer-center-div animate__slower animate__animated animate__fadeInLeftBig animate__slow'
                 : 'hidden'
             }
           >
@@ -31,7 +31,7 @@ const Footer = () => {
           <div
             className={
               animationSkill
-                ? 'footer-center-div animate__slower animate__animated animate__fadeInUp animate__slow'
+                ? 'footer-center-div animate__slower animate__animated animate__fadeInLeftBig animate__slow'
                 : 'hidden'
             }
           >
@@ -43,7 +43,7 @@ const Footer = () => {
           <div
             className={
               animationSkill
-                ? 'footer-center-div animate__slower animate__animated animate__fadeInUp animate__slow'
+                ? 'footer-center-div animate__slower animate__animated animate__fadeInLeftBig animate__slow'
                 : 'hidden'
             }
           >
@@ -56,7 +56,7 @@ const Footer = () => {
       <div
         className={
           animationSkill
-            ? 'footer-bottom animate__slower animate__animated animate__fadeInUp animate__slow'
+            ? 'footer-bottom animate__slower animate__animated animate__fadeInLeftBig animate__slow'
             : 'hidden'
         }
       >
@@ -67,7 +67,7 @@ const Footer = () => {
         <div
           className={
             animationSkill
-              ? 'flex logo-container animate__slower animate__animated animate__fadeInUp animate__slow'
+              ? 'flex logo-container animate__slower animate__animated animate__fadeInLeftBig animate__slow'
               : 'hidden'
           }
         >

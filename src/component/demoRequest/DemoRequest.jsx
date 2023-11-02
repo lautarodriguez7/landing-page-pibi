@@ -4,8 +4,8 @@ import {Link} from 'react-scroll'
 
 const DemoRequest = () => {
   return (
-    <div className="image-with-text-container image1 animate__animated animate__bounceInDown">
-      <div className="text-overlay flex flex-col container-div-demoRequest">
+    <div className="image-with-text-container container-demo-request image1 animate__animated animate__bounceInDown">
+      <div className="flex flex-col container-div-demoRequest">
         <div className="p-demo-container">
           <p className="p-demo">
             Tus informes de <b style={{color: '#FFC000'}}>Power BI</b>

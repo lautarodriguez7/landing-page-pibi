@@ -22,7 +22,7 @@ const ContactUs = () => {
             <h1
               className={
                 animationSkill
-                  ? 'animate__slower px-4 animate__animated animate__fadeInUp animate__slow title-contactUs'
+                  ? 'animate__slower px-4 animate__animated animate__fadeInLeftBig animate__slow title-contactUs'
                   : 'hidden'
               }
               style={{color: '#FFC000', fontSize: '25px', marginTop: '3rem'}}
@@ -33,7 +33,7 @@ const ContactUs = () => {
               style={{fontSize: '14px', fontWeight: '800'}}
               className={
                 animationSkill
-                  ? 'animate__slower container-scenarios animate__animated animate__fadeInUp animate__slow span-contactUs'
+                  ? 'animate__slower container-scenarios animate__animated animate__fadeInLeftBig animate__slow span-contactUs'
                   : 'hidden'
               }
             >

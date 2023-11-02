@@ -12,10 +12,10 @@ const NavBarDesktop = () => {
         </a>
       </NavbarBrand>
       <Link to="what-is" spy={true} smooth={true}>
-        ¿Que es?
+        ¿Qué es?
       </Link>
       <Link to="how-it-works" spy={true} smooth={true}>
-        ¿Como funciona?
+        ¿Cómo funciona?
       </Link>
       <Link to="scenarios" spy={true} smooth={true}>
         Escenarios

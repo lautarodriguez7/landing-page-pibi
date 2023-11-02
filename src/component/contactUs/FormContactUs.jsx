@@ -49,7 +49,7 @@ export const FormContactUs = () => {
     <div
       // className={
       //   animationSkill
-      //     ? 'animate__slower form-contactUs-container animate__animated animate__fadeInUp animate__slow'
+      //     ? 'animate__slower form-contactUs-container animate__animated animate__fadeInLeftBig animate__slow'
       //     : 'hidden'
       // }
       className="form-contactUs-container"

@@ -6,26 +6,9 @@ import CardScenarios from './CardScenarios'
 import {useState} from 'react'
 
 const Scenarios = ({image, description}) => {
-  const [animationSkill, setAnimationSkills] = useState(false)
-  const changeAnimationSkill = () => {
-    if (window.scrollY >= 560) {
-      setAnimationSkills(true)
-    }
-  }
-
-  window.addEventListener('scroll', changeAnimationSkill)
-
   return (
     <div className="container-scenarios">
-      <h1
-        className={
-          animationSkill
-            ? 'text-center animate__slower animate__animated animate__fadeInUp animate__slow'
-            : 'hidden'
-        }
-      >
-        Escenarios frecuentes
-      </h1>
+      <h1 className="text-center">Escenarios frecuentes</h1>
       <div className="div-images">
         <div className="images">
           <CardScenarios

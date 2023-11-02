@@ -4,25 +4,9 @@ import {useState} from 'react'
 
 const CardBenefit = (props) => {
   const {title, description, image} = props
-  const [animationSkill, setAnimationSkills] = useState(false)
-
-  const changeAnimationSkill = () => {
-    if (window.scrollY >= 1160) {
-      setAnimationSkills(true)
-    }
-  }
-
-  window.addEventListener('scroll', changeAnimationSkill)
-
   return (
     <div className="container-cardBenefit">
-      <div
-        className={
-          animationSkill
-            ? 'text-l animate__slower animate__animated animate__fadeInUp animate__slow'
-            : 'hidden'
-        }
-      >
+      <div className="text-l">
         <div>
           <h1>{title}</h1>
         </div>
