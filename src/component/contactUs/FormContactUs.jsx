@@ -54,7 +54,7 @@ export const FormContactUs = () => {
       // }
       className="form-contactUs-container"
     >
-      <h1 className="title-form">Contactanos</h1>
+      <h1 className="title-form">Contáctanos</h1>
 
       <form onSubmit={onSubmit} className="form-contactUs">
         <div>

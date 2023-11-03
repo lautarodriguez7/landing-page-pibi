@@ -43,7 +43,7 @@ const NavBarMobile = () => {
           size="lg"
           color="primary"
         >
-          ¿Que es?
+          ¿Qué es?
         </Link>
         <Link
           to="how-it-works"
@@ -52,7 +52,7 @@ const NavBarMobile = () => {
           spy={true}
           smooth={true}
         >
-          ¿Como funciona?
+          ¿Cómo funciona?
         </Link>
         <Link
           to="scenarios"
