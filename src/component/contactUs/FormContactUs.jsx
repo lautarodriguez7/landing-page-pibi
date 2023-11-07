@@ -58,7 +58,7 @@ export const FormContactUs = () => {
 
       <form onSubmit={onSubmit} className="form-contactUs">
         <div>
-          <label>Name:</label>
+          <label>Nombre:</label>
           <Input isRequired type="text" name="Name" value={data.Name} onChange={handleChange} />
         </div>
         <div>
