@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="PiBi is a software as service platform that leds your company a simply use of Power Bi Embedded license or any dedicated capacity. Power Bi Córdoba, Argentina. Fabric Argentina." />
+		<meta name="author" content="ibarrau">
+		<meta name="keywords" content="Power Bi, Power Bi Embedded, Azure, Microsoft Fabric, Power Bi Cordoba, Power Bi Argentina, Azure Cordoba, Azure Argentina, Bi Cordoba, Bi Argentina"/>
+		<meta name="distribution" content="global" />
+		<meta http-equiv="Content-Language" content="es" />
+		<meta name="copyright" content="ibarrau" />		
+		<meta property="og:locale" content="es_ES">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="PiBi Game">
+		<meta property="og:site_name" content="PiBi">	
+		<meta property='og:image' content='VictoriaGame.png'/>
+		<meta property='og:description' content='Descubre la magia detrás de PiBi en el reino de Azure en Tenant muy lejano con el poder de Embedded.'/>
+		<meta property='og:url' content='//pibi.cloud'/>
+        <style>
+            	.resp-container {
+                position: relative;                
+                width: 100%;
+                height: 100%;
+                /*overflow: hidden;
+                /*padding-top: 75%; es medida 4:3
+                //padding-bottom: 56.25%; es medida 16:9*/
+                }
+                
+                .resp-iframe {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+        <script>
+			var idioma = navigator.language;
+            var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function() {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };        
+        $(document).ready(function(){
+			if(idioma=="es"){
+				console.log("es");
+				if (isMobile.any()) {
+				//if(true == true){
+					console.log("Mobile");
+					o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="320" height="880" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiMWQyZWU5ZDYtZWFiMi00YWY3LTg0MjEtMWY2NDFkOGZiN2IwIiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+				}
+				else {
+					o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="1020" height="550" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiMWQyZWU5ZDYtZWFiMi00YWY3LTg0MjEtMWY2NDFkOGZiN2IwIiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+				}
+				addElement('dentro', 'div', 'divito', o_iframe);
+			} else {
+				console.log("en");
+				if (isMobile.any()) {
+				//Ingles comentado
+					//o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="320" height="880" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiZWU3ODliNDItNDcyMi00M2ZmLWFhNmUtNmM1NzY2Y2U1NjI5IiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+					console.log("Mobile");
+					o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="320" height="880" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiMWQyZWU5ZDYtZWFiMi00YWY3LTg0MjEtMWY2NDFkOGZiN2IwIiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+				}
+				else {
+					//INGLES o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="1020" height="550" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiZWU3ODliNDItNDcyMi00M2ZmLWFhNmUtNmM1NzY2Y2U1NjI5IiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+					o_iframe = '<div class="resp-container"><iframe class="resp-iframe" style="text-align:center;" width="1020" height="550" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiMWQyZWU5ZDYtZWFiMi00YWY3LTg0MjEtMWY2NDFkOGZiN2IwIiwidCI6ImNhMWQwOGIwLTk1NDMtNGJkOS04NzE4LTQyYmVjZGRjNzc4NiIsImMiOjR9"></iframe></div>';
+				}
+				addElement('dentro', 'div', 'divito', o_iframe);
+			}
+        });
+
+        function addElement(parentId, elementTag, elementId, html, elementClass="") {
+            // Adds an element to the document
+            var p = document.getElementById(parentId);
+            var newElement = document.createElement(elementTag);
+            newElement.setAttribute('id', elementId);
+            newElement.setAttribute('class', elementClass);
+            newElement.innerHTML = html;
+            p.appendChild(newElement);			
+        }
+        </script>
+		<!-- Google tag (gtag.js) --> 
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CVWVG88H98"></script> 
+		<script>
+		   window.dataLayer = window.dataLayer || [];
+		   function gtag(){dataLayer.push(arguments);}
+		   gtag('js', new Date());
+		   gtag('config', 'G-CVWVG88H98');
+		</script>
+    </head>
+    <body>
+        <div id="dentro">
+            <!--<div id="divito" class="resp-container">
+                <iframe class="resp-iframe" style="text-align:center;" width="320" height="880" scrolling="auto" src="https://app.powerbi.com/view?r=eyJrIjoiNWU0NmM2MjEtM2ViMC00OGIzLWEyNTgtNTNlY2QwODIxNjIxIiwidCI6ImUwOTdkOGQ5LTc4ZTUtNDY0YS04ODhiLWZlOGJiODk5MTIwMCJ9"></iframe>
+            </div>  -->
+        </div>
+    </body>
+</html>    
