@@ -221,7 +221,7 @@ const Benefit = () => {
             <CardBenefictRight
               title="Distribución ilimitada"
               image={image4}
-              description="Permite el acceso a usuarios internos o externos a la organización (SSO Google y Microsoft)."
+              description="Se pueden crear usuarios y embeber informes de manera ilimitada."
             />
           </div>
         </div>
